@@ -1,3 +1,5 @@
+//sebelumnya pastikan esp32 dan stick ps4 sudah dipairing atau kek sudah punya id bt yang sama gitu dah pokonya
+
 #include <PS4Controller.h>
 #include <Wire.h>
 
@@ -22,12 +24,12 @@ int motor2 = 17;// motor 2 Share
 int engine1 = 22;// engine L2
 int engine2 = 23;
 
-int ENApin = 27; //pwm1
-int IN1pin = 26; //ch1
-int IN2pin = 25; //ch1
-int IN3pin = 18; //ch2
-int IN4pin = 19; //ch2
-int ENBpin = 21; //pwm2
+int ENApin = 27; //pwm1 jy 1
+int IN1pin = 26; //ch1   jy1
+int IN2pin = 25; //ch1   jy1
+int IN3pin = 18; //ch2   jy2
+int IN4pin = 19; //ch2   jy2
+int ENBpin = 21; //pwm2 jy 2
    
 
 
